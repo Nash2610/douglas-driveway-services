@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 
 export const metadata = {
@@ -7,7 +6,6 @@ export const metadata = {
     "Driveway sealing, pressure washing, and snow clearing in Regina, White City, Emerald Park, Pilot Butte & Moose Jaw. Free estimates, 1,000+ driveways sealed.",
 };
 
-// const SERVICES = [
 //   {
 //     id: "sealing",
 //     index: "01",
@@ -53,19 +51,16 @@ const SERVICES = [
     id: "sealing",
     index: "01",
     title: "Driveway Sealing",
-    img: "/images/partially_finished_concrete.jpg",
+    img: "/images/partially_finished_agg_driveway.jpg",
     alt: "Sealed driveway",
-    desc: "Sealer is applied by hand roller — never sprayed — so coverage is even across the entire driveway with no blotchy patches. Cracks, control joints, and edges are addressed before the sealer goes down so the finished surface holds up through freeze-thaw cycles.",
-    chips: [
-      "Hand-rolled, blotch-free",
-      "Taped off until cured",
-    ],
+    desc: "Sealer is applied by hand roller — never sprayed — so coverage is even across the entire driveway with no blotchy patches. Cracks and control joints get extra attention, with sealer applied thicker on those areas first.",
+    chips: ["Hand-rolled, blotch-free", "Taped off until cured"],
   },
   {
     id: "pressure-washing",
     index: "02",
     title: "Pressure Washing",
-    img: "/images/stamped_patio.jpg",
+    img: "/images/imagefromprev2.jpg",
     alt: "Pressure washing patio",
     desc: "A high-powered gas pressure washer handles driveways, garage floors, patios, decks, fences and pool surrounds. It's the first step of every sealing job, and it's also booked on its own by a lot of clients who just want their concrete looking new again.",
     chips: [
@@ -93,13 +88,11 @@ const SERVICES = [
 export default function ServicesPage() {
   return (
     <>
-      
       <section
         className="hero page-hero"
         style={
           {
-            "--hero-img":
-              "url('/images/finished_driveway.jpg')",
+            "--hero-img": "url('/images/finished_driveway.jpg')",
           } as React.CSSProperties
         }
       >
@@ -135,7 +128,6 @@ export default function ServicesPage() {
         </div>
       </section>
 
-
       <section className="section" style={{ paddingBottom: 0 }}>
         <div className="wrap">
           <div className="section-head" style={{ marginBottom: 30 }}>
@@ -155,15 +147,8 @@ export default function ServicesPage() {
 
       <section className="section">
         <div className="wrap">
-          {/* <div className="jump-pills">
-            <a href="#sealing">Driveway Sealing</a>
-            <a href="#pressure-washing">Pressure Washing</a>
-            <a href="#snow-clearing">Snow Clearing</a>
-          </div> */}
-
           <div className="service-cards">
             {SERVICES.map((s) => (
-              // eslint-disable-next-line @next/next/no-img-element
               <div className="service-card" id={s.id} key={s.id}>
                 <div className="service-card-img">
                   <div className="service-card-badge">{s.index}</div>
@@ -186,7 +171,10 @@ export default function ServicesPage() {
 
       <section
         className="section section-ink"
-        style={{ paddingTop: "clamp(40px, 8vw, 60px)", paddingBottom: "clamp(48px, 9vw, 70px)" }}
+        style={{
+          paddingTop: "clamp(40px, 8vw, 60px)",
+          paddingBottom: "clamp(48px, 9vw, 70px)",
+        }}
       >
         <div className="wrap">
           <div className="section-head">

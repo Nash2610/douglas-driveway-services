@@ -1,5 +1,3 @@
-
-
 import Link from "next/link";
 import Image from "next/image";
 import ContactForm from "@/components/ContactForm";
@@ -52,8 +50,7 @@ export default function Home() {
         className="hero"
         style={
           {
-            "--hero-img":
-              "url('/images/driveway_pavers.jpeg')",
+            "--hero-img": "url('/images/pool_skirt_sealing.jpg')",
           } as React.CSSProperties
         }
       >
@@ -125,7 +122,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <section className="section" id="services">
+      <section className="section" id="services">
         <div className="wrap">
           <div className="section-head">
             <span className="kicker">What we do</span>
@@ -145,12 +142,10 @@ export default function Home() {
             <span>Broom finish driveways</span>
           </div>
 
-          
-
           <div className="svc-row">
             <div className="svc-photo">
               <Image
-                src="https://img1.wsimg.com/isteam/ip/3561343d-78a0-43bb-8e14-660c94a9b6af/1d0e24e3-3fc0-4cb2-9533-5b418689a08c.jpg"
+                src="/images/partially_finished_agg_driveway.jpg"
                 alt="Sealed driveway"
                 width={600}
                 height={480}
@@ -161,12 +156,11 @@ export default function Home() {
               <h3>Driveway Sealing</h3>
               <p>
                 Applied by hand roller, never sprayed, for even coverage that
-                actually protects concrete and asphalt through Saskatchewan
-                winters.
+                actually protects surfaces.
               </p>
               <ul className="svc-list">
                 <li>Even, blotch-free finish</li>
-                <li>Cracks &amp; control joints sealed first</li>
+                <li>Cracks &amp; control joints — applied thick first</li>
                 <li>Taped off until fully cured</li>
               </ul>
             </div>
@@ -175,7 +169,7 @@ export default function Home() {
           <div className="svc-row">
             <div className="svc-photo">
               <Image
-                src="https://img1.wsimg.com/isteam/ip/3561343d-78a0-43bb-8e14-660c94a9b6af/0000754b-b972-42e3-b4a7-235a468b08ef.jpg"
+                src="/images/imagefromprev2.jpg"
                 alt="Pressure washing patio"
                 width={600}
                 height={480}
@@ -200,7 +194,7 @@ export default function Home() {
           <div className="svc-row">
             <div className="svc-photo">
               <Image
-                src="https://img1.wsimg.com/isteam/ip/3561343d-78a0-43bb-8e14-660c94a9b6af/14095e17-333c-481a-85f6-9e82c290a8a7.jpg"
+                src="/images/snow_cleared.jpeg"
                 alt="Winter driveway"
                 width={600}
                 height={480}
@@ -227,108 +221,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </section> */}
-      <section className="section" id="services">
-  <div className="wrap">
-    <div className="section-head">
-      <span className="kicker">What we do</span>
-      <h2>Three jobs. Same crew, all year.</h2>
-      <p>
-        Free, no-obligation estimates — in person or without you needing
-        to be home.
-      </p>
-    </div>
-
-    <div className="feature-chips" style={{ marginBottom: 50 }}>
-      <span>Aggregate driveways &amp; patios</span>
-      <span>Pool areas</span>
-      <span>Stamped concrete</span>
-      <span>Pavers</span>
-      <span>New pour driveways</span>
-      <span>Broom finish driveways</span>
-    </div>
-
-    <div className="svc-row">
-      <div className="svc-photo">
-        <Image
-          src="/images/partially_finished_concrete.jpg"
-          alt="Sealed driveway"
-          width={600}
-          height={480}
-        />
-      </div>
-      <div className="svc-text">
-        <div className="svc-index">01</div>
-        <h3>Driveway Sealing</h3>
-        <p>
-          Applied by hand roller, never sprayed, for even coverage that
-          actually protects concrete and asphalt through Saskatchewan
-          winters.
-        </p>
-        <ul className="svc-list">
-          <li>Even, blotch-free finish</li>
-          <li>Cracks &amp; control joints sealed first</li>
-          <li>Taped off until fully cured</li>
-        </ul>
-      </div>
-    </div>
-
-    <div className="svc-row">
-      <div className="svc-photo">
-        <Image
-          src="/images/stamped_patio.jpg"
-          alt="Pressure washing patio"
-          width={600}
-          height={480}
-        />
-      </div>
-      <div className="svc-text">
-        <div className="svc-index">02</div>
-        <h3>Pressure Washing</h3>
-        <p>
-          Gas-powered pressure washing for driveways, garage floors,
-          patios, decks and fences — done the day before sealing, or on
-          its own.
-        </p>
-        <ul className="svc-list">
-          <li>Driveways &amp; garage floors</li>
-          <li>Patios, decks &amp; walkways</li>
-          <li>Fences &amp; pool surrounds</li>
-        </ul>
-      </div>
-    </div>
-
-    <div className="svc-row">
-      <div className="svc-photo">
-        <Image
-          src="/images/snow_cleared.jpeg"
-          alt="Winter driveway"
-          width={600}
-          height={480}
-        />
-      </div>
-      <div className="svc-text">
-        <div className="svc-index">03</div>
-        <h3>Snow Clearing</h3>
-        <p>
-          The same crew that seals your driveway in summer keeps it clear
-          all winter — one call, one relationship, all year round.
-        </p>
-        <ul className="svc-list">
-          <li>Residential routes</li>
-          <li>Priority booking for sealing clients</li>
-          <li>Sand treatment available on request (no salt)</li>
-        </ul>
-      </div>
-    </div>
-
-    <div style={{ textAlign: "center", marginTop: 46 }}>
-      <Link href="/services" className="btn btn-dark">
-        See all services in detail
-      </Link>
-    </div>
-  </div>
-</section>
+      </section>
 
       <section className="section section-ink">
         <div className="wrap">

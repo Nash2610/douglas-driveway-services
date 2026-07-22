@@ -85,78 +85,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* <section className="section" id="process">
-        <div className="wrap">
-          <div className="section-head">
-            <span className="kicker">How it runs</span>
-            <h2>Four steps. Two visits. Zero muddy footprints.</h2>
-            <p>
-              Built around drying time, not around rushing a truck off your
-              street. Every job follows the same sequence, whether it&apos;s a
-              small single-car pad or a driveway with a walkway.
-            </p>
-          </div>
-
-          <div className="timeline light-timeline">
-            <div className="tl-item">
-              <div className="day">Day one, afternoon</div>
-              <h4>Wash</h4>
-              <p>
-                We pressure wash the full area with a high-powered gas washer to
-                lift dirt, oil residue, and old sealer buildup, then leave it to
-                dry overnight.
-              </p>
-            </div>
-            <div className="tl-item">
-              <div className="day">Day two, morning</div>
-              <h4>Clear &amp; tape</h4>
-              <p>
-                We come back with a leaf blower to clear anything that landed
-                overnight, then tape off the whole area so no foot or car
-                traffic gets in the way while it cures.
-              </p>
-            </div>
-            <div className="tl-item">
-              <div className="day">Day two, application</div>
-              <h4>Hand-roll the sealer</h4>
-              <p>
-                Sealer goes on by hand roller — never sprayed — for full, even
-                coverage with no blotching or missed patches.
-              </p>
-            </div>
-            <div className="tl-item">
-              <div className="day">Before we leave</div>
-              <h4>Walkthrough</h4>
-              <p>
-                We walk the finished job with you and answer any questions.
-                Payment isn&apos;t collected until you&apos;re 100% happy with
-                the result.
-              </p>
-            </div>
-          </div>
-
-          <div
-            style={{
-              marginTop: 60,
-              padding: "30px 34px",
-              background: "var(--paper-deep)",
-              borderRadius: 6,
-              border: "1px solid var(--line)",
-            }}
-          >
-            <h4 style={{ fontSize: 18, marginBottom: 10 }}>
-              In a time crunch?
-            </h4>
-            <p style={{ color: "#4a4238", fontSize: 15, lineHeight: 1.7 }}>
-              At your request, we can wash the driveway in the morning and come
-              back the same evening or late afternoon to apply the sealer —
-              while still making sure it has enough time to dry properly. That
-              way you&apos;re not stuck without your driveway or garage
-              overnight.
-            </p>
-          </div>
-        </div>
-      </section> */}
       <section className="section" id="process">
         <div className="wrap">
           <div className="section-head">
@@ -219,11 +147,8 @@ export default function AboutPage() {
               In a time crunch?
             </h4>
             <p style={{ color: "#4a4238", fontSize: 15, lineHeight: 1.7 }}>
-              At your request, we can wash the driveway in the morning and come
-              back the same evening or late afternoon to apply the sealer —
-              while still making sure it has enough time to dry properly. That
-              way you&apos;re not stuck without your driveway or garage
-              overnight.
+              Subject to availability, we may be able to work with your schedule
+              and move you up — just let us know when you book.
             </p>
           </div>
         </div>

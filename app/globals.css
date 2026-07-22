@@ -65,13 +65,18 @@ nav.site-nav .wrap{display:flex;align-items:center;justify-content:space-between
 }
 
 
- .hero{
+
+.hero{
   position:relative;min-height:92vh;margin-top:78px;
   display:flex;align-items:center;
   background:linear-gradient(180deg, rgba(20,17,13,0.32) 0%, rgba(15,13,10,0.68) 55%, rgba(10,9,7,0.92) 100%),
     var(--hero-img, url('/images/finished_driveway.jpg')) center/cover no-repeat;
 }
-.page-hero{min-height:58vh;}
+.page-hero{
+  min-height:58vh;
+  background:linear-gradient(180deg, rgba(20,17,13,0.18) 0%, rgba(15,13,10,0.45) 55%, rgba(10,9,7,0.72) 100%),
+    var(--hero-img, url('/images/finished_driveway_hero.jpg')) center/cover no-repeat;
+}
 .hero-inner{position:relative;width:100%;padding-top:64px;padding-bottom:64px;}
 .page-hero .hero-inner{padding-top:40px;padding-bottom:40px;}
 .hero-badge{
@@ -88,6 +93,7 @@ nav.site-nav .wrap{display:flex;align-items:center;justify-content:space-between
 .hero-badge .center .small{font-size:9.5px;letter-spacing:0.06em;text-transform:uppercase;display:block;margin-top:2px;font-family:'Public Sans',sans-serif;font-weight:700;}
 @keyframes spin{to{transform:rotate(360deg);}}
 @media(max-width:780px){.hero-badge{display:none;}}
+
 
 .eyebrow-tag{
   display:inline-block;background:var(--yellow);color:var(--ink);font-weight:700;

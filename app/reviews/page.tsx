@@ -6,7 +6,7 @@ export const metadata = {
 // Google Maps search link for the business — swap for the exact
 // Google Business Profile "share" link once you have it (see README).
 const GOOGLE_REVIEWS_URL =
-  "https://www.google.com/maps/search/?api=1&query=Douglas+Driveway+Services+Regina+SK";
+  "https://www.google.com/maps/place/Douglas+Driveway+Services/@50.4734548,-104.9646556,104378m/data=!3m1!1e3!4m8!3m7!1s0x531ea73cd4169b93:0xbded2804b2fd53cf!8m2!3d50.4585942!4d-104.6354091!9m1!1b1!16s%2Fg%2F11h7146wr8?entry=ttu&g_ep=EgoyMDI2MDcyMC4wIKXMDSoASAFQAw%3D%3D";
 
 const REVIEWS = [
   {
@@ -47,16 +47,16 @@ export default function ReviewsPage() {
   return (
     <>
       <section className="section" style={{ marginTop: 78 }}>
-        <div className="wrap">
-          <div className="section-head">
-            <span className="kicker">Word around Regina</span>
-            <h2>26+ reviews. 5.0 average.</h2>
-            <p>
-              Every review below is a real Google review from a real job.
-              Click through to read them straight from Google, or leave one
-              of your own.
-            </p>
-          </div>
+  <div className="wrap">
+    <div className="section-head">
+      <span className="kicker">Word around Regina</span>
+      <h2>5.0 average across all reviews.</h2>
+      <p>
+        Every review below is a real Google review from a real job.
+        Click through to read them straight from Google, or leave one
+        of your own.
+      </p>
+    </div>
 
           <div className="review-grid">
             {REVIEWS.map((r, i) => (
