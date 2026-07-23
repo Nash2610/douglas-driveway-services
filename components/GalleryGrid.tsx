@@ -4,7 +4,7 @@ import { useState } from "react";
 
 type GalleryImage = { src: string; alt: string };
 
-const PAGE_SIZE = 6;
+const PAGE_SIZE = 8;
 
 export default function GalleryGrid({ images }: { images: GalleryImage[] }) {
   const [visible, setVisible] = useState(PAGE_SIZE);

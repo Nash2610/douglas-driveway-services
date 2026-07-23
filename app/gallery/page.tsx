@@ -54,6 +54,30 @@ const IMAGES = [
     src: "/images/partially_finished_agg_driveway.jpg",
     alt: "Partially finished exposed aggregate driveway",
   },
+  {
+    src: "/images/bulrush_way.jpg",
+    alt: "Finished Driveway at Bulrush Way",
+  },
+  {
+    src: "/images/finished_agg_driveway.jpg",
+    alt: "Finished Aggregate Driveway",
+  },
+  {
+    src: "/images/pavers_progress_1.jpg",
+    alt: "Pavers Progress 1",
+  },
+  {
+    src: "/images/pavers_progress_2.jpg",
+    alt: "Pavers Progress 2",
+  },
+  {
+    src: "/images/progress_agg.jpg",
+    alt: "Aggregate Driveway Progress",
+  },
+  {
+    src: "/images/riverblend_progress.jpg",
+    alt: "Riverblend Driveway Progress",
+  },
   
 ];
 
