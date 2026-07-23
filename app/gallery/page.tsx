@@ -43,7 +43,7 @@ const IMAGES = [
     alt: "Pool skirt sealing",
   },
   {
-    src: "/images/imagefromprev2.jpg",
+    src: "/images/imagefromprev2.webp",
     alt: "Douglas Driveway Services completed job",
   },
   {

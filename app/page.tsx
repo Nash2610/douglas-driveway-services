@@ -145,7 +145,7 @@ export default function Home() {
           <div className="svc-row">
             <div className="svc-photo">
               <Image
-                src="/images/partially_finished_agg_driveway.jpg"
+                src="/images/partially_finished_agg_driveway.webp"
                 alt="Sealed driveway"
                 width={600}
                 height={480}
