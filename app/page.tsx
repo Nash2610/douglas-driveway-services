@@ -50,7 +50,7 @@ export default function Home() {
         className="hero"
         style={
           {
-            "--hero-img": "url('/images/pool_skirt_sealing.jpg')",
+            "--hero-img": "url('/images/pool_skirt_sealing.webp')",
           } as React.CSSProperties
         }
       >

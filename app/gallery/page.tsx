@@ -39,7 +39,7 @@ const IMAGES = [
     alt: "Stamped concrete walkway",
   },
   {
-    src: "/images/pool_skirt_sealing.jpg",
+    src: "/images/pool_skirt_sealing.webp",
     alt: "Pool skirt sealing",
   },
   {
@@ -51,31 +51,31 @@ const IMAGES = [
     alt: "Douglas Driveway Services completed job",
   },
   {
-    src: "/images/partially_finished_agg_driveway.jpg",
+    src: "/images/partially_finished_agg_driveway.webp",
     alt: "Partially finished exposed aggregate driveway",
   },
   {
-    src: "/images/bulrush_way.jpg",
+    src: "/images/bulrush_way.webp",
     alt: "Finished Driveway at Bulrush Way",
   },
   {
-    src: "/images/finished_agg_driveway.jpg",
+    src: "/images/finished_agg_driveway.webp",
     alt: "Finished Aggregate Driveway",
   },
   {
-    src: "/images/pavers_progress_1.jpg",
+    src: "/images/pavers_progress_1.webp",
     alt: "Pavers Progress 1",
   },
   {
-    src: "/images/pavers_progress_2.jpg",
+    src: "/images/pavers_progress_2.webp",
     alt: "Pavers Progress 2",
   },
   {
-    src: "/images/progress_agg.jpg",
+    src: "/images/progress_agg.webp",
     alt: "Aggregate Driveway Progress",
   },
   {
-    src: "/images/riverblend_progress.jpg",
+    src: "/images/riverblend_progress.webp",
     alt: "Riverblend Driveway Progress",
   },
   

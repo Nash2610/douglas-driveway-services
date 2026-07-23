@@ -51,7 +51,7 @@ const SERVICES = [
     id: "sealing",
     index: "01",
     title: "Driveway Sealing",
-    img: "/images/partially_finished_agg_driveway.jpg",
+    img: "/images/partially_finished_agg_driveway.webp",
     alt: "Sealed driveway",
     desc: "Sealer is applied by hand roller — never sprayed — so coverage is even across the entire driveway with no blotchy patches. Cracks and control joints get extra attention, with sealer applied thicker on those areas first.",
     chips: ["Hand-rolled, blotch-free", "Taped off until cured"],
@@ -60,7 +60,7 @@ const SERVICES = [
     id: "pressure-washing",
     index: "02",
     title: "Pressure Washing",
-    img: "/images/imagefromprev2.jpg",
+    img: "/images/imagefromprev2.webp",
     alt: "Pressure washing patio",
     desc: "A high-powered gas pressure washer handles driveways, garage floors, patios, decks, fences and pool surrounds. It's the first step of every sealing job, and it's also booked on its own by a lot of clients who just want their concrete looking new again.",
     chips: [
