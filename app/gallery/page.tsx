@@ -66,8 +66,8 @@ export default function GalleryPage() {
             <span className="kicker">Recent work</span>
             <h2>See the finish for yourself.</h2>
             <p>
-              A look at recent driveway sealing, stamped concrete, and
-              pressure washing jobs around Regina and area.
+              Progress pictures on different driveway sealing finishes — pavers,
+  concrete, stamped, aggregate — and what snow removal can look like.
             </p>
           </div>
           <GalleryGrid images={IMAGES} />

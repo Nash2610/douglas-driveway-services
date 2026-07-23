@@ -80,7 +80,7 @@ const SERVICES = [
     chips: [
       "Residential routes",
       "Priority for sealing clients",
-      "Sand treatment, no salt",
+      "Sand treatment available at additional cost",
     ],
   },
 ];

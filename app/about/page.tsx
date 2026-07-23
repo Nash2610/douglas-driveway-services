@@ -91,10 +91,10 @@ export default function AboutPage() {
             <span className="kicker">How it runs</span>
             <h2>Four steps. Two visits. Zero muddy footprints.</h2>
             <p>
-              Built around drying time, not around rushing a truck off your
-              street. Every job follows the same sequence, whether it&apos;s a
-              small single-car pad or a driveway with a walkway.
-            </p>
+  Built around drying time, not around rushing a truck off your
+  street. Every job follows the same sequence, whether it&apos;s a
+  small single-car pad or a huge driveway or large shop.
+</p>
           </div>
 
           <div className="timeline light-timeline">

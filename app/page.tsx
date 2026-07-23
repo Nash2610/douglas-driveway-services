@@ -210,7 +210,7 @@ export default function Home() {
               <ul className="svc-list">
                 <li>Residential routes</li>
                 <li>Priority booking for sealing clients</li>
-                <li>Sand treatment available on request (no salt)</li>
+                <li>Sand treatment availabe at additional cost</li>
               </ul>
             </div>
           </div>
