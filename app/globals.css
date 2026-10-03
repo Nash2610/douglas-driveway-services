@@ -217,13 +217,22 @@ nav.site-nav .wrap{display:flex;align-items:center;justify-content:space-between
 .load-more-wrap{display:flex;justify-content:center;margin-top:40px;}
 
 .review-strip{display:flex;gap:26px;overflow-x:auto;overflow-y:visible;padding:22px 6px 36px 6px;scrollbar-width:thin;}
-.review-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:26px;}
+/* .review-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:26px;} */
+.review-grid{ columns: 3 280px; column-gap:26px; }
+.review-grid .review{ break-inside:avoid; margin-bottom:26px; }
 .review{
   display:block;
   background:#fff;border:1px solid var(--line);border-radius:3px;padding:26px;
   position:relative;box-shadow:0 6px 18px rgba(27,23,18,0.06);
 }
 .review-strip .review{flex:0 0 300px;}
+.review-strip .review p{
+  display:-webkit-box;
+  -webkit-line-clamp:8;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+
 .review:nth-child(odd){transform:rotate(-0.8deg);}
 .review:nth-child(even){transform:rotate(0.7deg);}
 .review .pin{position:absolute;top:-9px;left:24px;width:18px;height:18px;background:var(--yellow);border-radius:50%;border:2px solid var(--ink);}

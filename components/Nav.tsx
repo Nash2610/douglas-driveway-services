@@ -85,7 +85,7 @@ export default function Nav() {
     <nav className="site-nav">
       <div className="wrap">
         <Link href="/" className="brand" onClick={() => setOpen(false)}>
-          <span className="dot" />
+          {/* <span className="dot" /> */}
           Douglas Driveway Services
         </Link>
 
