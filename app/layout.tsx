@@ -36,6 +36,9 @@ export const metadata: Metadata = {
     description: DESCRIPTION,
     images: ["/images/finished_driveway_hero.jpg"],
   },
+  verification: {
+    google: "-QFdeHESpCxfdwunloBF6_tASlrg12rKUHXx1WzWXJc",
+  },
 };
 
 // LocalBusiness structured data — tells Google this is a Regina-area
